@@ -1,1 +1,15 @@
+body
+{background-color: rgb(255, 208, 231);
+    color:rgb(27, 46, 63)
+}
 
+p{line-height: 2em;}
+
+img {
+  width: 200px;
+  height: 200px;
+  float:left;
+  border:solid 2px #1b9d9d;
+  border-radius: 9px;
+  margin-right: 9px;
+}
