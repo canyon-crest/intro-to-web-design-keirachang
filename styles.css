@@ -1,6 +1,10 @@
 body
-{background-color: rgb(255, 208, 231);
-    color:rgb(27, 46, 63)
+{background-color: rgb(52, 50, 50);
+    color:rgb(255, 255, 255)
+}
+
+.sans-serif {
+    font-family: Arial, Helvetica, Verdana, sans-serif;
 }
 
 p{line-height: 2em;}
@@ -36,4 +40,87 @@ float: left
   margin-top: 2px;
   margin-bottom: 4px;
 float: left
+}
+
+.underline {
+  text-decoration:underline
+}
+
+h1,h2,h3 {
+  color:rgb(255, 255, 255)
+}
+
+#container{
+  width: 700px;
+  margin: auto;
+  background-color: rgb(0,0,0);
+  padding: 30px;
+  border: solid rgb(228, 222, 215);
+}
+
+.highlight{
+  background-color: rgb(247, 247, 141);
+  font-weight: bolder;
+}
+a:link{
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+a:visited{
+  color:brown;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:active{
+  color:rgb(199, 199, 77);
+}
+
+.image-box:hover{
+  border-color:blue;
+  transform: scale(1.02);
+}
+#sidebar{
+  background-color:rgb(163, 221, 241);
+  border:solid black;
+  padding:10px;
+  width: 150px;
+  float:right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color:black
+}
+#sidebar h3{
+    padding:5px;
+    border-width: 5px;
+    padding-left:20px;
+}
+ul{
+    line-height: 2em;
+}
+@media(max-width:1200px){
+    #container{
+        width:700px;
+    }
+}
+@media(max-width:992px){
+    #container{
+        width:100%;
+        margin:0;
+        padding:0;
+        border:none;
+    }
+    body{
+        padding:20px;
+    }
+}
+@media (max-width:768px){
+    #sidebar{
+        display:none;
+    }
+}
+
+#funfacts{
+  color:black;
 }
