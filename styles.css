@@ -3,12 +3,22 @@ body
     color:rgb(255, 255, 255)
 }
 
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.paragraphspan{
+  color:#ff0000
+  
+}
+
 #flyingcatgif {
-width: 180px;
+width: 131px;
 height: auto;
 float: right;
 margin-right: 180px;
-transform: translateY(-30px);
+transform: translateY(-53px);
 }
 
 #inspirationalquote{
